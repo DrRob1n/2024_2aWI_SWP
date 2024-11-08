@@ -11,7 +11,7 @@
         width: 200px;
         background-color: aqua;
         margin: 40px;
-        position: absolute;
+        position: relative;
         padding: 20px;
         } 
         .grünbox {
@@ -28,8 +28,29 @@
             background-color: black;
             height: 50px;
             margin: 20px;
+            left: 0;
+            top: 0;
         }
 
+        .container {
+            position: relative;
+            height: 70px;
+        background-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        margin: 0px;
+        bottom: 0;
+        }
+
+        .box {
+        width: 40px;
+        height: 20px;
+        background-color: green;
+        margin: 5%;
+        }
 
     </style>
 
@@ -42,6 +63,17 @@
     </div>
     <div class="schwarzbox">
 
+    </div>
+    <div class="container">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
     </div>
 </body>
 </html>
