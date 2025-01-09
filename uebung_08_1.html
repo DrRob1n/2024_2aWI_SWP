@@ -17,12 +17,62 @@
             padding: 20px;
             justify-content: space-between;
             align-items: center;
+
         }
 
         .box {
             border: 1px solid black;
             height: 50px;
             width: 50px;
+        }
+
+        .container2 {
+            margin: 20px;
+            height: 300px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            gap: 15px;
+        }
+
+        .box1 {
+            border: 1px solid black;
+            height: 300px;
+            width: 65%;
+        }
+
+        .box2 {
+            border: 1px solid black;
+            height: 300px;
+            width: 35%;
+        }
+
+        @media (min-width: 800px) {
+
+            .container {
+                height: 200px;
+                margin: 20px;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 15px;
+                border: none;
+            }
+
+            .container2 {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .box1 {
+                height: 500px;
+            }
+
+            .box2 {
+                height: 500px;
+            }
+
         }
     </style>
 
@@ -34,7 +84,13 @@
         <div class="box"></div>
         <div class="box"></div>
     </div>
-
+    <div class="container2">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
 </body>
 
 </html>
