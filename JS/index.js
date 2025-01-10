@@ -1,6 +1,8 @@
 
-let a;
+let a = 4000;
+let b = 2000;
+let c = a / b;
 
-a = 1000;
+connsole.log("Wert von der variable a ist: " + c);
 
-connsole.log("Wert von der variable a ist: " + a);
+cosnole.log("Wert von d: " + d)
