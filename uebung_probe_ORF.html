@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORF-Seite</title>
+    <link rel="stylesheet" href="css_reset.css">
+    <style>
+        body {
+            font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-feature-settings: "liga", "kern";
+        }
+
+        header {
+            background-color: rgb(176, 2, 2);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+            background-color: red;
+        }
+
+        .article {
+            border: 1px solid transparent;
+            padding: 20px;
+            color: black;
+        }
+
+        .image {
+            width: 100%;
+            height: 200px;
+            /* Passe die Höhe an dein Bild an */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+        </div>
+        <nav>
+            <ul>
+                <li>Fernsehen</li>
+                <li>Tvthek</li>
+                <li>Sound</li>
+                <li>Topos</li>
+                <li>Debatte</li>
+                <li>Österreich</li>
+                <li>Wetter</li>
+                <li>Sport</li>
+                <li>News</li>
+                <li>ORF.at im Überblick</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h2>Vorarlberg</h2>
+            <img src="dein_bild.jpg" alt="Bild" class="image">
+        </div>
+
+        <nav>
+            <ul>
+                <li>Vorarlberg-News</li>
+                <li>Radio Vorarlberg</li>
+                <li>Vorarlberg heute</li>
+                <li>ORF Vorarlberg</li>
+                <li>Ganz Österreich</li>
+            </ul>
+        </nav>
+
+        <article class="article">
+            <h3>CORONAVIRUS</h3>
+            <p>19 neue Infektionen und ein Todesopfer</p>
+            <p>Laut der Landessanitätsdirektion wurden in Vorarlberg seit dem Vortag (Stand:16:00 Uhr)</p>
+            <p>...</p>
+            <p>Online seit heute 8:07 Uhr</p>
+        </article>
+    </main>
+</body>
+
+</html>
