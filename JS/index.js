@@ -1,8 +1,10 @@
 
-let a = 4000;
-let b = 2000;
-let c = a / b;
+let s = 100;
 
-connsole.log("Wert von der variable a ist: " + c);
+console.log("Der type von s ist:" + typeof s);
+connsole.log("Wert von der variable a ist: " + s);
+s = 2;
+s = s + "2";
 
-cosnole.log("Wert von d: " + d)
+console.log("Der type von s ist:" + typeof s);
+cosnole.log("Wert von d: " + s);
