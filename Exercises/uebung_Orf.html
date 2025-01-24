@@ -15,117 +15,69 @@
         }
 
         .container1 {
-            background-color: rgb(176, 2, 2);
+            background-color: #9E0B0F;
             display: flex;
             justify-content: space-between;
             color: white;
             align-items: center;
-            border: 1px solid black;
             padding: 5px;
             padding-left: 15px;
             padding-right: 15px;
         }
 
         .container2 {
-            background-color: rgb(176, 2, 2);
+            background-color: #9E0B0F;
             display: flex;
             justify-content: space-between;
             color: white;
             align-items: center;
-            border: black solid 1px;
             width: 80%;
         }
 
-        .fernsehen {
-            border: black solid 1px;
-        }
-
-        .tvthek {
-            border: black solid 1px;
-        }
-
-        .sound {
-            border: black solid 1px;
-        }
-
-        .topos {
-            border: black solid 1px;
-        }
-
-        .debatte {
-            border: black solid 1px;
-        }
-
-        .österreich {
-            border: black solid 1px;
-        }
-
-        .wetter {
-            border: black solid 1px;
-        }
-
-        .sport {
-            border: black solid 1px;
-        }
-
-        .news {
-            border: black solid 1px;
-        }
-
-        .container3 {
-            border: black solid 1px;
-        }
-
         .container4 {
-            background-color: red;
+            background-color: #BB131A;
             display: flex;
             color: white;
             align-items: center;
-            border: 1px solid black;
             padding-left: 35px;
         }
 
         .container5 {
-            border: black solid 1px;
             font-size: 30px;
         }
 
-        .container6 {
-            border: black solid 1px;
-        }
-
         .container7 {
-            background-color: orangered;
+            background-color: #D32824;
             height: 10px;
         }
 
         .container8 {
-            background-color: orange;
+            background-color: #E94E38;
             height: 3px;
         }
 
         .container9 {
-            background-color: rgb(176, 2, 2);
+            background-color: #790000;
             display: flex;
             justify-content: space-between;
             color: white;
             align-items: center;
-            border: 1px solid black;
-            padding: 5px;
             padding-left: 15px;
             padding-right: 15px;
         }
+
 
         .container10 {
             display: flex;
             justify-content: space-between;
             color: white;
             align-items: center;
-            border: black solid 1px;
+            width: 100%;
+            font-size: 18px;
         }
 
         .container12 {
-            background-color: white;
+            background-color: #ffffff;
             height: 10px;
         }
 
@@ -139,19 +91,31 @@
             height: 100%;
         }
 
-        nav li {
-            margin-right: 20px;
+        .image2 {
+            width: 90%;
+            height: 30px;
         }
 
+
         main {
-            padding: 20px;
-            background-color: red;
+            position: absolute;
+            top: 111.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 200px;
+            background-color: white;
         }
 
         .article {
             border: 1px solid transparent;
             padding: 20px;
             color: black;
+        }
+
+        .coronavirus {
+            border: 1px solid black;
+            padding-left: 10px;
         }
     </style>
 
@@ -183,9 +147,13 @@
         <div class="container8"></div>
         <div class="container9">
             <div class="container10">
-                <div class="vorarlbergnews">Vorarlberg-News</div>
-                <div class="radiovorarlberg">Radio Vorarlberg</div>
-                <div class="vorarlbergheute">Vorarlberg heute</div>
+                <div class="vorarlbergnews">˅ Vorarlberg-News</div>
+                <div class="radiovorarlberg">˅ Radio Vorarlberg</div>
+                <div class="vorarlbergheute">˅ Vorarlberg heute</div>
+                <div class="orfvarlberg">˅ ORF Vorarlberg</div>
+                <div class="ganzösterreich">˅ Ganz Österreich</div>
+                <div class="klingelbild"><img src="bilder/klingel.png" alt="Bild" class="image2"></div>
+
             </div>
             <div class="container11"></div>
         </div>
@@ -198,13 +166,14 @@
     <main>
 
 
-        <article class="article">
-            <h3>CORONAVIRUS</h3>
-            <p>19 neue Infektionen und ein Todesopfer</p>
-            <p>Laut der Landessanitätsdirektion wurden in Vorarlberg seit dem Vortag (Stand:16:00 Uhr)</p>
-            <p>...</p>
-            <p>Online seit heute 8:07 Uhr</p>
-        </article>
+        <div class="article">
+            <div class="coronavirus">CORONAVIRUS</div>
+            <div class="19">19 neue Infektionen und ein Todesopfer</div>
+            <div class="laut">Laut der Landessanitätsdirektion wurden in Vorarlberg seit dem Vortag (Stand:16:00 Uhr)
+            </div>
+            <div class="...">...</div>
+            <div class="online">Online seit heute 8:07 Uhr</div>
+        </div>
     </main>
 </body>
 
